@@ -1,0 +1,17 @@
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\bin\Debug\net8.0-windows\projetoaula1.exe
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\bin\Debug\net8.0-windows\projetoaula1.deps.json
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\bin\Debug\net8.0-windows\projetoaula1.runtimeconfig.json
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\bin\Debug\net8.0-windows\projetoaula1.dll
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\bin\Debug\net8.0-windows\projetoaula1.pdb
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.Frmprincipal.resources
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.frmusuario.resources
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.csproj.GenerateResource.cache
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.AssemblyInfo.cs
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.dll
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\refint\projetoaula1.dll
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.pdb
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\projetoaula1.genruntimeconfig.cache
+C:\Users\Aluno\Documents\GitHub\aula2105\projetoaula1\obj\Debug\net8.0-windows\ref\projetoaula1.dll

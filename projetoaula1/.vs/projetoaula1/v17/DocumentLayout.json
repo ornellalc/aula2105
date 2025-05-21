@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|c:\\users\\aluno\\documents\\github\\aula2105\\projetoaula1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC481D-22F5-496C-8BDB-BB6C9C835B7C}|projetoaula1.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmusuario.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs",
+              "RelativeDocumentMoniker": "frmusuario.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs",
+              "RelativeToolTip": "frmusuario.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:47:56.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmusuario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs",
+              "RelativeDocumentMoniker": "frmusuario.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\frmusuario.cs [Projeto]",
+              "RelativeToolTip": "frmusuario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:17:59.972Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:17:15.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\aula2105\\projetoaula1\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:15:59.625Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
