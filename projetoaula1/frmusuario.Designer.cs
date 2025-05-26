@@ -35,6 +35,8 @@
             email = new TextBox();
             senha = new TextBox();
             cadastrar = new Button();
+            Dados_usuario = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)Dados_usuario).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -95,11 +97,21 @@
             cadastrar.UseVisualStyleBackColor = true;
             cadastrar.Click += cadastrar_Click;
             // 
+            // Dados_usuario
+            // 
+            Dados_usuario.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            Dados_usuario.Location = new Point(29, 226);
+            Dados_usuario.Name = "Dados_usuario";
+            Dados_usuario.RowHeadersWidth = 51;
+            Dados_usuario.Size = new Size(300, 188);
+            Dados_usuario.TabIndex = 7;
+            // 
             // frmusuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 426);
+            Controls.Add(Dados_usuario);
             Controls.Add(cadastrar);
             Controls.Add(senha);
             Controls.Add(email);
@@ -110,6 +122,7 @@
             Name = "frmusuario";
             Text = "frmusuario";
             Load += frmusuario_Load;
+            ((System.ComponentModel.ISupportInitialize)Dados_usuario).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -123,5 +136,6 @@
         private TextBox email;
         private TextBox senha;
         private Button cadastrar;
+        private DataGridView Dados_usuario;
     }
 }
