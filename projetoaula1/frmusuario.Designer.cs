@@ -36,6 +36,8 @@
             senha = new TextBox();
             cadastrar = new Button();
             Dados_usuario = new DataGridView();
+            editar = new Button();
+            excluir = new Button();
             ((System.ComponentModel.ISupportInitialize)Dados_usuario).BeginInit();
             SuspendLayout();
             // 
@@ -75,7 +77,7 @@
             // 
             // email
             // 
-            email.Location = new Point(154, 110);
+            email.Location = new Point(154, 108);
             email.Name = "email";
             email.Size = new Size(125, 27);
             email.TabIndex = 4;
@@ -86,10 +88,11 @@
             senha.Name = "senha";
             senha.Size = new Size(125, 27);
             senha.TabIndex = 5;
+            senha.TextChanged += senha_TextChanged;
             // 
             // cadastrar
             // 
-            cadastrar.Location = new Point(364, 110);
+            cadastrar.Location = new Point(364, 58);
             cadastrar.Name = "cadastrar";
             cadastrar.Size = new Size(94, 29);
             cadastrar.TabIndex = 6;
@@ -100,17 +103,37 @@
             // Dados_usuario
             // 
             Dados_usuario.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            Dados_usuario.Location = new Point(29, 226);
+            Dados_usuario.Location = new Point(67, 226);
             Dados_usuario.Name = "Dados_usuario";
             Dados_usuario.RowHeadersWidth = 51;
-            Dados_usuario.Size = new Size(300, 188);
+            Dados_usuario.Size = new Size(391, 188);
             Dados_usuario.TabIndex = 7;
+            // 
+            // editar
+            // 
+            editar.Location = new Point(364, 108);
+            editar.Name = "editar";
+            editar.Size = new Size(94, 29);
+            editar.TabIndex = 8;
+            editar.Text = "editar";
+            editar.UseVisualStyleBackColor = true;
+            // 
+            // excluir
+            // 
+            excluir.Location = new Point(364, 161);
+            excluir.Name = "excluir";
+            excluir.Size = new Size(94, 29);
+            excluir.TabIndex = 9;
+            excluir.Text = "excluir";
+            excluir.UseVisualStyleBackColor = true;
             // 
             // frmusuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 426);
+            ClientSize = new Size(810, 460);
+            Controls.Add(excluir);
+            Controls.Add(editar);
             Controls.Add(Dados_usuario);
             Controls.Add(cadastrar);
             Controls.Add(senha);
@@ -137,5 +160,7 @@
         private TextBox senha;
         private Button cadastrar;
         private DataGridView Dados_usuario;
+        private Button editar;
+        private Button excluir;
     }
 }

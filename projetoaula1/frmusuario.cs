@@ -35,14 +35,14 @@ namespace projetoaula1
             //abrindo a conexão
             conexao = new MySqlConnection(data_source);
             //criando o script sql para inserir as informações
-            string sql = "insert into usuario(nome,email,senha) values('" + txtNome.Text + "','" + txtEmail.Text + "','" + txtSenha.Text + "')";
+            string sql = "insert into usuario(nome,email,senha) values('" + Nome.Text + "','" + email.Text + "','" + senha.Text + "')";
             //montar o script sql para executar
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             //abrir o banco de dados
             conexao.Open();
 
             //se estiver vazio
-            if (txtNome.Text == "")
+            if (Nome.Text == "")
             {
                 //Alerta para o usuário mensagem verdadeira
                 MessageBox.Show("Nome está vazio!");
@@ -52,13 +52,13 @@ namespace projetoaula1
                 // alerta para o usuário preenchido
                 MessageBox.Show("campo preenchido!");
 
-                if (txtEmail.Text == "")
+                if (email.Text == "")
                     MessageBox.Show("email está vazio!");
 
-                if (txtSenha.Text == "")
+                if (senha.Text == "")
                     MessageBox.Show("senha está vazia!");
 
-                if (txtSenha.Text != "" && txtEmail.Text != "" && txtNome.Text != "")
+                if (senha.Text != "" && email.Text != "" && Nome.Text != "")
                 {
                     //executar a consulta no banco de dados
                     comando.ExecuteNonQuery();
@@ -76,17 +76,22 @@ namespace projetoaula1
             conexao = new MySqlConnection(data_source);
             //criando o script sql para consultar as informções 
             string sql = "SELECT * from usuario";
-            MySqlCommand comando = new MySqlCommand(SqlDbType, conexao);
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
             //abrir banco de dados
             conexao.Open();
             //montar a consulta com as informações
             MySqlDataAdapter adapter = new MySqlDataAdapter(comando);
             //montando a tabela
-            adapter.Fill(SecurityIDType);
+            adapter.Fill(dt);
             //fecho a conexao
             conexao.Close();
             return dt;
         }
+
+        private void senha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
-    
+
 }
